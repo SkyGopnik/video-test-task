@@ -1,0 +1,19 @@
+.video {
+  position: relative;
+
+  video {
+    position: absolute;
+    top: 0;
+  }
+
+  .timestamp {
+    position: absolute;
+    top: 0;
+
+    opacity: .5;
+
+    border: 1px solid green;
+
+    background: green;
+  }
+}
