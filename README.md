@@ -12,13 +12,16 @@ http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp
 ● Отображение тестового видео с возможностью постановки на паузу и возобновлением
 воспроизведения по клику на область видео
 ![enter image description here](https://i.imgur.com/l7Jviwy.png)
+
 ● Отображения списка событий аналитики с возможностью позиционирования видео на момент,
 указанный в событии
 ![enter image description here](https://i.imgur.com/g4zbsSU.png)
+
 ● Список событий должен быть отсортирован по дате возникновения, само событие должно
 отображаться в списке в виде времени своего возникновения в формате MM:SS:sss
 (минуты:секунды:миллисекунды). Пример: 00:03:012, 01:05:123, 03:26:100
 ![enter image description here](https://i.imgur.com/FLWHEkv.png)
+
 ● В момент возникновения события в плеере поверх видео должен рисоваться зелёный прямоугольник,
 соответствующий области, определённой в событии. Прямоугольник должен отображаться как при
 переходе к событию по клику из списка событий, так и в случае обычного воспроизведения и
@@ -26,6 +29,7 @@ http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp
 Возможна ситуация что одновременно показываются 2 и более прямоугольника.
 ![enter image description here](https://i.imgur.com/j9kbHye.png)
 ![enter image description here](https://i.imgur.com/Vj5Ys2G.png)
+
 ## Запуск:
 1. npm i
 2. npm run dev
