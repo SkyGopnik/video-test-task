@@ -4,14 +4,15 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "dev": "ENV=development next dev",
+    "dev": "next dev",
     "build": "next build && next export",
-    "start": "ENV=production next start -p 6787"
+    "start": "next start -p 6787"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "axios": "^0.21.1",
     "dgram": "^1.0.1",
+    "dotenv": "^10.0.0",
     "framer-motion": "^3.3.0",
     "lodash": "^4.17.21",
     "minecraft-query": "^1.0.9",

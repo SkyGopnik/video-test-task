@@ -1,0 +1,45 @@
+.index {
+  display: flex;
+
+  .video {
+    width: 1280px;
+    height: 720px;
+
+    position: relative;
+
+    video {
+      position: fixed;
+      top: 10px;
+    }
+
+    .timestamp {
+      position: fixed;
+      top: 0;
+
+      opacity: .5;
+
+      border: 1px solid green;
+
+      background: green;
+    }
+  }
+
+  .table {
+    td {
+      padding: 10px;
+
+      text-align: center;
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+
+      color: blueviolet;
+    }
+
+    .active {
+      background: rgba(green, .5);
+    }
+  }
+}
